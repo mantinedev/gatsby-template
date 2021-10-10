@@ -1616,12 +1616,12 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mantine/core@2.6.0-alpha.2":
-  version "2.6.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.6.0-alpha.2.tgz#2c5d52c693f96716e9f4b5a046c464123ba9de1a"
-  integrity sha512-I0K5bdX/c+FijWrXjWliIq57Bta61NAX4hnctKQ1Xu4Kr4uLIookd5D0bggjm/4siUFWtZLyOpR8ehOJaA0CMw==
+"@mantine/core@2.6.0-alpha.6":
+  version "2.6.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.6.0-alpha.6.tgz#d2cd99d266a769f736da533324413a2cfd8f4906"
+  integrity sha512-YIgoWNv+EoWymzq04TJucfTDh/ykvmtlA+otROzLvRYeLOpC6A4zAL7l4KhHTnAA7zYXe8TrIvd1+pVyItyASQ==
   dependencies:
-    "@mantine/styles" "2.6.0-alpha.2"
+    "@mantine/styles" "2.6.0-alpha.6"
     "@popperjs/core" "^2.9.3"
     clsx "^1.1.1"
     react-popper "^2.2.5"
@@ -1632,29 +1632,29 @@
   resolved "https://registry.yarnpkg.com/@mantine/eslint-config/-/eslint-config-2.5.1.tgz#a7162074b7743deb20c92a4adf7585f0f0114211"
   integrity sha512-/azpu7V42RpoAQW51Gdeoyydx/memImtt0IjBZrfxbzZzxW3uhUbwDooPwiW3gpmij2z+GjLFUlARwMF3JlbIQ==
 
-"@mantine/hooks@2.6.0-alpha.2":
-  version "2.6.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.6.0-alpha.2.tgz#26371120fca2fe8542000171b726a0d5be005677"
-  integrity sha512-bK/VhNtx+bPfEQuyUv8ulZ5McY7SVIdBbIPuovEdDkKqQ8Kp9vnjF8uLw2ZueLUo8MyPJXPXfmeSNLJbkXVHJg==
+"@mantine/hooks@2.6.0-alpha.6":
+  version "2.6.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.6.0-alpha.6.tgz#115845c40d18d02a68c79a48256905937f367db5"
+  integrity sha512-jPLFun/GEIL409Z04TZT47LwQvk7GWXDBNJkDiYu0STOkYvhkFgqXBmvncpjzTRfLsSWggf1zgcCXN+Rcwakiw==
 
-"@mantine/ssr@2.6.0-alpha.2":
-  version "2.6.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-2.6.0-alpha.2.tgz#166ec8ce19e92a133a3491fab6065fe1ea3af510"
-  integrity sha512-kjMKLhG7gGqA/sE5EM7rMCRJCwKOfN9d2ORRVlHgD92ShBp0+qQIj1gt+pFBS4iWp7u3RWgPMA0DeyCAzHEOcg==
+"@mantine/ssr@2.6.0-alpha.6":
+  version "2.6.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-2.6.0-alpha.6.tgz#9446dddbd59beb8cb63155ed506f8602501d25a2"
+  integrity sha512-oAnk0rcRKnQeEa/vblZkWOa63+YVfVcHOdFkN18GmG7tTZbp57vJ/A1jnjRnJZoI11rKhksu4Yq6550PgPQHeQ==
   dependencies:
     "@emotion/cache" "^11.4.0"
     "@emotion/react" "^11.4.1"
     "@emotion/serialize" "^1.0.2"
     "@emotion/server" "^11.4.0"
     "@emotion/utils" "^1.0.0"
-    "@mantine/styles" "2.6.0-alpha.2"
+    "@mantine/styles" "2.6.0-alpha.6"
     csstype "^3.0.9"
     html-react-parser "^1.3.0"
 
-"@mantine/styles@2.6.0-alpha.2":
-  version "2.6.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-2.6.0-alpha.2.tgz#b159124ae42fddf1712c267d6ab1c95f8700d4b8"
-  integrity sha512-k6RTBP9aboE7JJsKthKyBw1c3Q4RCek44kC3pojaWJiZoGpBb3PqH9KK+1MXYS8hzEGW0f60LDx8iSahYCtSLA==
+"@mantine/styles@2.6.0-alpha.6":
+  version "2.6.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-2.6.0-alpha.6.tgz#0f9ef93217b14880b22c9f6a9a120f8f78fd8813"
+  integrity sha512-2ctCHHvIBgmJ8c19vc/QW85+TJGluP69oI59CyBxEqCuP7xQkHRtH/18hWQlY2tW0OT175KWs8KTysOnh2ib6A==
   dependencies:
     "@emotion/cache" "^11.4.0"
     "@emotion/react" "^11.4.1"
@@ -5287,12 +5287,12 @@ gatsby-page-utils@^1.14.0:
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-gatsby-plugin-mantine@2.6.0-alpha.2:
-  version "2.6.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-mantine/-/gatsby-plugin-mantine-2.6.0-alpha.2.tgz#99600f7914c02480c3c5e86967fb624498200b04"
-  integrity sha512-TbQZma8u/eO9jK8HMgYR0uVOPw3GtKzZeCXvhNwsFTLt81n2/wlXgeRgLvj7MfZcD5Pl3q7pXBI7bwWrZxuLCw==
+gatsby-plugin-mantine@2.6.0-alpha.6:
+  version "2.6.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mantine/-/gatsby-plugin-mantine-2.6.0-alpha.6.tgz#96253d7082ea274c6a8b0f0ce4af8314d19735e5"
+  integrity sha512-R9/LRW6WS9K3Tfjs+8AL1LeGAIf41Vlw07HbqNTr/gJvXXg3W8sqwR2vTqY4ZkgpUYbFhXOUYLo+sO71DTv5KQ==
   dependencies:
-    "@mantine/ssr" "2.6.0-alpha.2"
+    "@mantine/ssr" "2.6.0-alpha.6"
 
 gatsby-plugin-page-creator@^3.14.0:
   version "3.14.0"
