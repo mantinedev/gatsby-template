@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
 import { useHotkeys } from '@mantine/hooks';
-import {
-  MantineProvider,
-  ColorSchemeProvider,
-  ColorScheme,
-  GlobalStyles,
-  NormalizeCSS,
-} from '@mantine/core';
+import { MantineProvider, ColorSchemeProvider, ColorScheme } from '@mantine/core';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -22,9 +16,7 @@ export function Layout({ children }: LayoutProps) {
   return (
     <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
       {/* Add your theme here */}
-      <MantineProvider theme={{ colorScheme }}>
-        <GlobalStyles />
-        <NormalizeCSS />
+      <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
         {children}
       </MantineProvider>
     </ColorSchemeProvider>
