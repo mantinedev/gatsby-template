@@ -12,6 +12,9 @@
     "start": "gatsby develop -H 0.0.0.0 -p 5001",
     "serve": "gatsby serve -H 0.0.0.0 -p 5002"
   },
+  "resolutions": {
+    "@mantine/styles": "^6.0.0"
+  },
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@mantine/core": "6.0.0",
