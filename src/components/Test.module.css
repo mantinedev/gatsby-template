@@ -1,0 +1,8 @@
+.test {
+  background-color: red;
+  padding: rem(40px);
+
+  @mixin dark {
+    background-color: blue;
+  }
+}

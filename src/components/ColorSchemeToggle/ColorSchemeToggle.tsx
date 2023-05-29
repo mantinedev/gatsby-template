@@ -1,12 +1,14 @@
-import React from 'react';
-import { useMantineColorScheme, Button } from '@mantine/core';
+import React from "react";
+import { Button, Group, useMantineColorScheme } from "@mantine/core";
 
 export function ColorSchemeToggle() {
-  const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+  const { setColorScheme } = useMantineColorScheme();
 
   return (
-    <Button color={colorScheme === 'light' ? 'blue' : 'orange'} onClick={() => toggleColorScheme()}>
-      {colorScheme === 'light' ? 'Dark color scheme' : 'Light color scheme'}
-    </Button>
+    <Group justify="center" mt="xl">
+      <Button onClick={() => setColorScheme("light")}>Light</Button>
+      <Button onClick={() => setColorScheme("dark")}>Dark</Button>
+      <Button onClick={() => setColorScheme("auto")}>Auto</Button>
+    </Group>
   );
 }
