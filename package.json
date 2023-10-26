@@ -15,8 +15,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@mantine/core": "7.1.5",
-    "@mantine/hooks": "7.1.5",
+    "@mantine/core": "7.1.6",
+    "@mantine/hooks": "7.1.6",
     "gatsby": "^5.10.0",
     "gatsby-plugin-postcss": "^6.10.0",
     "postcss": "^8.4.23",
